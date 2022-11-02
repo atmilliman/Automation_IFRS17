@@ -38,24 +38,6 @@ while True:
                     dict_result[article]
                 )
 
-            # html_str = """
-            # <!DOCTYPE html>
-            # <html>
-            #     <body>
-            #         <div style="padding:20px 0px">
-            #             <div style="height: 1000px;width:600px">
-            #                 <div style="text-align:center;">
-            #                     <h3>www.versicherungswirtschaft-heute.de</h3>
-            #                     {}
-            #                 </div>
-            #             </div>
-            #         </div>
-            #     </body>
-            # </html>
-            # """.format(
-            #     article_string
-            # )
-
 
             html_str = r"""
             <!DOCTYPE html>

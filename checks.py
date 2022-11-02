@@ -111,6 +111,7 @@ while True:
 
         except Exception as e:
             print("Es ist ein Fehler passiert.", e.__class, "Bitte überprüfen!")
+		print("Es ist ein Fehler passiert.", e.__class, "Bitte überprüfen!")
             break
 
     else:
